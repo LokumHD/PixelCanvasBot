@@ -35,7 +35,7 @@ Bunlari yapmadan bir sonraki asamaya gecemyin.
 
 1- cmd yi acin (bilgisayarinizdaki arama moturunda "cmd" yazarak bulabilirsiniz)
 
-2- Actinktan sonra "cd desktop" yazin, enter yaptiktan sonra "cd PixelCanvasBot" 
+2- Actinktan sonra "cd desktop" yazin, enter yaptiktan sonra "cd PixelCanvasBot-1.0" 
 yada klasör adını ne olarak değiştirdeyseniz o adı "cd ad" olarak
 yazin ve tekrardan Enter a basin.
 
@@ -48,7 +48,7 @@ Setup tamamlanmistir.
 Resimi cizmeye baslamak icin cmd yi yeniden acmaniz gerek
 (bu asamayi her botu kapatip actiginizda yapmaniz gerekicek).
 cmd actiktan sonra "cd desktop" yazin ve enter a basin,
-ve sonra "cd PixelCanvasBot" yazarak
+ve sonra "cd PixelCanvasBot-1.0" yazarak
  yada klasör adını ne olarak değiştirdeyseniz o adı "cd ad" olarak yazın 
  
  yeniden enter a basin.
