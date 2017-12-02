@@ -1,13 +1,14 @@
 # ACIKLAMALAR
 Oncelikle, bu bot sadece sizin yerinize resim çizer, size ait olan fingerprint ile çizdiği için bot kullanım altında iken pixel atamazsınız.
 
-# SETUP
+ 
+# FingerPrint Alma
+
 Bot setup ı için öncelikle size ait olan fıngerprint i (yani parmak izini) bulmamız lazım.
 Bunun için bir chrome sekmesi açın ve pixalcanvas a girin.
 Girdikten sonra f12 tuşuna basın.
- 
-# FingerPrint Alma
-bir sekmeye girdikten sonra, filter yazan boşluğa ''pixel'' yazmanız gerek.
+
+Network yazan sekmeye girdikten sonra, filter yazan boşluğa ''pixel'' yazmanız gerek.
 Yazdıktan sonra herhangi bir yere pixel atmanız gerek.
 Attıktan sonra name listesinde ''pixel'' yazısı çıkıcaktır, ona bastıktan sonra ''Headers'' e basıp en alt tarafa indiğinizde ''Fingerprint'' yazısını görceksiniz
 Onu kopyalayın ve bir yere kayıt edin.
@@ -15,6 +16,7 @@ Onu kopyalayın ve bir yere kayıt edin.
 
 ![image](https://user-images.githubusercontent.com/12828465/28237968-24ca07cc-694a-11e7-9df3-32b4d737b44e.png)
 
+# SETUP
 
 Ikinci aşama da 1 program indirip kurmaniz gerekicek.
 ## setup python
@@ -32,29 +34,38 @@ klasör ismini kısaltabilirsiniz ("bot" gibi) kolay yazmak için
 Bunlari yapmadan bir sonraki asamaya gecemyin.
 
 1- cmd yi acin (bilgisayarinizdaki arama moturunda "cmd" yazarak bulabilirsiniz)
+
 2- Actinktan sonra "cd desktop" yazin, enter yaptiktan sonra "cd PixelCanvasBot" 
 yada klasör adını ne olarak değiştirdeyseniz o adı "cd ad" olarak
- yazin ve tekrardan Enter a basin.
-3- simdi "python setup.py" yazarak enter a basin. Yuklenmeye basliyacaktir. Yuklendikten sonra cmd yi kapatabilirsiniz.
+yazin ve tekrardan Enter a basin.
+
+3- simdi "python setup.py" yazarak enter a basin.
+Yuklenmeye baslıyacaktir. Yuklendikten sonra cmd yi kapatabilirsiniz.
 
 Setup tamamlanmistir. 
 ---------------------------------------------------------------------------
 
-Resimi cizmeye baslamak icin cmd yi yeniden acmaniz gerek (bu asamayi her botu kapatip actiginizda yapmaniz gerekicek).
-cmd actiktan sonra "cd desktop" yazin ve enter a basin, ve sonra "cd PixelCanvasBot" yazarak
- yada klasör adını ne olarak değiştirdeyseniz o adı "cd ad" olarak yazın  
+Resimi cizmeye baslamak icin cmd yi yeniden acmaniz gerek
+(bu asamayi her botu kapatip actiginizda yapmaniz gerekicek).
+cmd actiktan sonra "cd desktop" yazin ve enter a basin,
+ve sonra "cd PixelCanvasBot" yazarak
+ yada klasör adını ne olarak değiştirdeyseniz o adı "cd ad" olarak yazın 
+ 
  yeniden enter a basin.
  
-simdiki yazacaginiz kod cok botu başlatır;
+## simdiki yazacaginiz kod ile Bot çalışmaya başlar;
 
 python main.py -f FINGERPRINT
 
 "FINGERPRINT" yerine, ilk asamada aldiginiz fingerprintinizi yazin
 
 
-Botu kullanirken bazen blok olabilir, bu pixelcanvasin kullandigi captcha sistemi yuzunden, blok oldugunda ses cikarir zaten.
+Botu kullanirken bazen blok olabilir, 
+bu pixelcanvasin kullandigi captcha sistemi yuzunden,
+blok oldugunda sesli uyarı cikarir.
+
 Devam ettirmek icin, oyuna girmeniz lazim ve haritanin herhangi bir yerine pixel atip, captchayi cozmeniz gerek.
+
 Cozdukten sonra cmd yi yeniden acin ve "y" tusuna basip enter yapin.
 
-Yardima ihtiyaciniz olur ise :
-( Discord : yagèeggelihc#6897 ) 
+Yardima ihtiyaciniz olur ise :( Discord : yagèeggelihc#6897 )
