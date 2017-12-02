@@ -39,7 +39,7 @@ Bunlari yapmadan bir sonraki asamaya gecemyin.
 yada klasör adını ne olarak değiştirdeyseniz o adı "cd ad" olarak
 yazin ve tekrardan Enter a basin.
 
-3- simdi "python setup.py" yazarak enter a basin.
+3- simdi "setup.py" yazarak enter a basin.
 Yuklenmeye baslıyacaktir. Yuklendikten sonra cmd yi kapatabilirsiniz.
 
 Setup tamamlanmistir. 
@@ -55,7 +55,7 @@ ve sonra "cd PixelCanvasBot-1.0" yazarak
  
 ## simdiki yazacaginiz kod ile Bot çalışmaya başlar;
 
-python main.py -f FINGERPRINT
+main.py -f FINGERPRINT
 
 "FINGERPRINT" yerine, ilk asamada aldiginiz fingerprintinizi yazin
 
@@ -68,4 +68,6 @@ Devam ettirmek icin, oyuna girmeniz lazim ve haritanin herhangi bir yerine pixel
 
 Cozdukten sonra cmd yi yeniden acin ve "y" tusuna basip enter yapin.
 
-Yardima ihtiyaciniz olur ise :( Discord : yagèeggelihc#6897 )
+Yardima ihtiyaciniz olur ise : buradan ulaşabilirsiniz ( Discord : yagèeggelihc#6897 )
+
+Geliştiriciler: Rogério Blanco @RogerioBlanco & Osman Kayan @Qh0stM4N 
