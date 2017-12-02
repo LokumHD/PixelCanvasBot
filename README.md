@@ -1,110 +1,60 @@
-# PixelCanvasBot
+# ACIKLAMALAR
+Oncelikle, bu bot sadece sizin yerinize resim çizer, size ait olan fingerprint ile çizdiği için bot kullanım altında iken pixel atamazsınız.
 
-This is a functional bot for pixelcanvas.io.
-We will not provide you with a faster drawing.
-It does not allow you to easily draw your image. You need to spend some effort.
-This bot can draw images that you can't normally draw on your place.
+# SETUP
+Bot setup ı için öncelikle size ait olan fıngerprint i (yani parmak izini) bulmamız lazım.
+Bunun için bir chrome sekmesi açın ve pixalcanvas a girin.
+Girdikten sonra f12 tuşuna basın.
+ 
+# FingerPrint Alma
+bir sekmeye girdikten sonra, filter yazan boşluğa ''pixel'' yazmanız gerek.
+Yazdıktan sonra herhangi bir yere pixel atmanız gerek.
+Attıktan sonra name listesinde ''pixel'' yazısı çıkıcaktır, ona bastıktan sonra ''Headers'' e basıp en alt tarafa indiğinizde ''Fingerprint'' yazısını görceksiniz
+Onu kopyalayın ve bir yere kayıt edin.
 
-### What you can do with this?
-Well, you can draw some image and try replicate in pixelcanvas.io. You can combine with your friends or clan, whatever for combine forces to draw more quickly or defend your 'territory'.
-
-### I can use any image and this bot will draw for me?
-You can use any image. 
-Converted your image colors to nearest PixelCanvas.io color for every pixel.
-Conversion result images if not exist in ./img/.cache folder created.
-You can interfere with this file or you can preview it to be drawn.
-
-# Installation
-
-## get python
-install python for yours operation systems in here https://www.python.org/downloads/release/python-2713/
-Recomments 'Python 2.7' 32bit versions,
-Important Python 3 not supported (Help wanted a few critical error) 
-
-## Download bot
-
-### With git
-PixelCanvas.io frequently changes the API validation system.
-We are updated after we notice. It can be a bit late, we can not guarantee it in any way. Recommend GIT for the current use
-
-#### If you have not installed git?
-* get git and install from https://git-scm.com/downloads
-
-#### Clone bot
-Open Terminal (git bash, cmd vs.)
-enter this command
-
-* git clone https://github.com/RogerioBlanco/PixelCanvasBot.git
-
-### Optional downlad from release
-https://github.com/RogerioBlanco/PixelCanvasBot/archive/v1.0.zip
-
-## Setup bot 
-go bot directory
-
-* cd PixelCanvasBot
-* python ./setup.py
-
-# Using
-
-## Geting yours fingerprint Chrome or chromium
-* go http://pixelcanvas.io/@0,0
-* press **F12**
-* open **network** tab
-* in **filter** input paste '**pixel**'
-* put yours pixel any coordinates
-* click request name *pixel*
-* open **headers** tab
-* your fingerprint is under **Request Playload**
 
 ![image](https://user-images.githubusercontent.com/12828465/28237968-24ca07cc-694a-11e7-9df3-32b4d737b44e.png)
 
-## Easy to use, only required parameters:
 
-* python ./main.py -i image.png -f $FINGERPRINT$ -x 0 -y 0
+Ikinci aşama da 1 program indirip kurmaniz gerekicek.
+## setup python
 
-## What is each parameter? 
-    Need to help?
-    Try it 'python ./main.py --help' maybe more usefull.
-* [required] **-i** or **--image**          it is the image you want to draw.
+1- Python, 2.7 indirmeniz gerek (32 bit) 
+https://www.python.org/downloads/release/python-2713/
 
-* [required] **-f** or **--fingerprint**    it is your unique code. You can get in the requisition when you open Chrome DevTools.
+## Download bot
+https://github.com/Qh0stM4N/PixelCanvasBot/archive/v1.0.zip
 
-* [required] **-x** or **--start_x**        it is the point X axis what you want to begin. Ex: 156
+Dosyayı indirin masaüstüne çıkartın
+klasör ismini kısaltabilirsiniz ("bot" gibi) kolay yazmak için
 
-* [required] **-y** or **--start_y**        it is the point y axis what you want to begin. Ex: -4000
 
-* [optional] **--colors_ignored**           Colors of your image that will be ignored. Ex: 0 1 2 3 8 15
+Bunlari yapmadan bir sonraki asamaya gecemyin.
 
-* [optional] **--draw_strategy**            draw strategy default by: *randomize* Avaiable strategy list : 
+1- cmd yi acin (bilgisayarinizdaki arama moturunda "cmd" yazarak bulabilirsiniz)
+2- Actinktan sonra "cd desktop" yazin, enter yaptiktan sonra "cd PixelCanvasBot" 
+yada klasör adını ne olarak değiştirdeyseniz o adı "cd ad" olarak
+ yazin ve tekrardan Enter a basin.
+3- simdi "python setup.py" yazarak enter a basin. Yuklenmeye basliyacaktir. Yuklendikten sonra cmd yi kapatabilirsiniz.
 
-    * *linear* :    line by line paint, 
-    
-    * *randomize* : pixel paint random coordinates, 
-    
-    * *status* :    not painted only list paint status --support colors ignored parameters, don't suppurt sketch mode--
-    
-    * *sketch* :    Don't fill image drawing image only bordes. see more information https://github.com/RogerioBlanco/PixelCanvasBot/issues/6
-    
-* [optional] **--mode_defensive**           is the mode who put the program mode deamon. Default: True
+Setup tamamlanmistir. 
+---------------------------------------------------------------------------
 
-* [optional] **--proxy_url**                it is you proxy. Ex: proxy.yourcompany.com:8080
+Resimi cizmeye baslamak icin cmd yi yeniden acmaniz gerek (bu asamayi her botu kapatip actiginizda yapmaniz gerekicek).
+cmd actiktan sonra "cd desktop" yazin ve enter a basin, ve sonra "cd PixelCanvasBot" yazarak
+ yada klasör adını ne olarak değiştirdeyseniz o adı "cd ad" olarak yazın  
+ yeniden enter a basin.
+ 
+simdiki yazacaginiz kod cok botu başlatır;
 
-* [optional] **--proxy_auth**               it is your credentials for the proxy. Ex: username:password
+python main.py -f FINGERPRINT
 
-* [optional] **--round_sensitive**          it is color rounding sensitive option. Need this number > 0 ex: 3
+"FINGERPRINT" yerine, ilk asamada aldiginiz fingerprintinizi yazin
 
-* [optional] **--image_brightness**         it is change image brignets, Support negative values ex: 15 or -15
 
-#### Note:
-*--round_sensitive* *--image_brightness* parameters to You can change the degree of rounding precision,
-or you can make the picture that is to be drawn darker - lighter.
-see work result: https://github.com/RogerioBlanco/PixelCanvasBot/issues/45
+Botu kullanirken bazen blok olabilir, bu pixelcanvasin kullandigi captcha sistemi yuzunden, blok oldugunda ses cikarir zaten.
+Devam ettirmek icin, oyuna girmeniz lazim ve haritanin herhangi bir yerine pixel atip, captchayi cozmeniz gerek.
+Cozdukten sonra cmd yi yeniden acin ve "y" tusuna basip enter yapin.
 
-# Update bot with last changes
-### Clear local changes (if you changes source code) 
-* git reset --hard
-### Update from server server
-* git pull -ff
-# External credential
-https://github.com/possatti/pixelbot/blob/master/README.md 
+Yardima ihtiyaciniz olur ise :
+( Discord : yagèeggelihc#6897 ) 

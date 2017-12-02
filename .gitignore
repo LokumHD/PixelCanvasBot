@@ -6,6 +6,7 @@
 !/img/.cache/.gitkeep
 
 !/img/rgb_specktrum.jpg
+!/img/moonStar.png
 /.idea/
 /*/*.pyc
 *.pyc
