@@ -9,7 +9,7 @@ from argparse import ArgumentParser
 def parse_args():
     #TODO added I18n argument help messages
     parser = ArgumentParser()
-    parser.add_argument('-i','--image', required=False, default='./img/moonStar.png' dest='file', help='')
+    parser.add_argument('-i','--image', required=False, default=./img/moonStar.png dest='file', help='')
     parser.add_argument('-f','--fingerprint', required=True, dest='fingerprint', help='The fingerprint of your browser')
     parser.add_argument('-x','--start_x', required=False, type=int, default=-205, dest='start_x', help='The point x axis that will start to draw')
     parser.add_argument('-y','--start_y', required=False, type=int, default=-2192, dest='start_y', help='The point y axis that will start to draw')
