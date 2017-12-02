@@ -71,3 +71,5 @@ Cozdukten sonra cmd yi yeniden acin ve "y" tusuna basip enter yapin.
 Yardima ihtiyaciniz olur ise : buradan ulaşabilirsiniz ( Discord : yagèeggelihc#6897 )
 
 Geliştiriciler: Rogério Blanco @RogerioBlanco & Osman Kayan @Qh0stM4N 
+
+Teşekkürler İçin http://medyakim.com/
