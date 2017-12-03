@@ -39,15 +39,15 @@ setup.py dosyasina çift tıklayarak kurulumu yapın (yonetici olarak çalışt�
 
 Setup tamamlanmistir. 
 ---------------------------------------------------------------------------
+## Bota fingerprint değerini ekleme
  
 botu çalıtrırmak çin indirdiğimiz klasörün içerisinde bulunan main.py dosyasını kopyalıyoruz 
 ve masaüstüne kısayol yapıştır yapıyoruz.
 
-## Bota fingerprint değerini ekleme
-
 kopyaladığımız kısayola sağ click ozellikler diyip açılan ayarlardan hedef alanının sonuna ' -f FINGERPRINT'
 Ekliyoruz.
 
+![image](https://user-images.githubusercontent.com/12828465/33527594-41cf8302-d85c-11e7-9aa4-840223d12f9b.png)
 
 "FINGERPRINT" yerine, ilk asamada aldiginiz fingerprintinizi yazin
 
